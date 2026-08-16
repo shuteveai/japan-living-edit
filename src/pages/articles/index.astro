@@ -1,0 +1,27 @@
+---
+import ArticleCard from '@/components/ArticleCard.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPublishedArticles } from '@/lib/articles';
+
+const articles = await getPublishedArticles();
+---
+
+<BaseLayout
+  title="Articles"
+  description="Editorial articles on Japanese organization, small-space living, kitchen tools and coffee."
+  pathname="/articles/"
+>
+  <section class="page-intro">
+    <p class="eyebrow">Articles</p>
+    <h1>Practical notes for considered living.</h1>
+    <p>
+      A growing archive of English-language articles about products, habits and ideas
+      connected to everyday life in Japan.
+    </p>
+  </section>
+  <section class="section">
+    <div class="article-grid">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>

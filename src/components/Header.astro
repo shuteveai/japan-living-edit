@@ -1,0 +1,22 @@
+---
+import { site } from '@/lib/site';
+
+const navItems = [
+  { href: '/', label: 'Home' },
+  { href: '/articles/', label: 'Articles' },
+  { href: '/brands/', label: 'Brands' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Japan Living Edit home">{site.name}</a>
+  <nav aria-label="Main navigation">
+    <ul>
+      {navItems.map((item) => (
+        <li><a href={item.href}>{item.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+</header>

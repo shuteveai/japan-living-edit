@@ -1,0 +1,50 @@
+---
+import ArticleCard from '@/components/ArticleCard.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPublishedArticles } from '@/lib/articles';
+import { categories, site } from '@/lib/site';
+
+const articles = await getPublishedArticles();
+---
+
+<BaseLayout title={site.name} description={site.description} pathname="/">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Independent editorial from Japan</p>
+      <h1>Living ideas from Japan, edited for everyday homes.</h1>
+      <p>
+        Japan Living Edit helps international readers discover thoughtfully designed
+        products, practical ideas and everyday approaches to living from Japan.
+      </p>
+      <a class="button" href="/articles/">Browse articles</a>
+    </div>
+    <div class="abstract-visual" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Categories</p>
+      <h2>Calm, practical areas of focus.</h2>
+    </div>
+    <div class="category-grid">
+      {categories.map((category) => (
+        <article class="category-card">
+          <h3>{category.title}</h3>
+          <p>{category.description}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="section-heading">
+      <p class="eyebrow">Latest</p>
+      <h2>Articles</h2>
+    </div>
+    <div class="article-grid">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>

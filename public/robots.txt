@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://japanlivingedit.com/sitemap-index.xml

@@ -1,0 +1,9 @@
+node_modules
+dist
+.astro
+.pnpm-store
+.mypy_cache*
+.env
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
