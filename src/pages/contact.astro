@@ -1,26 +1,23 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 
-const contactEmail = import.meta.env.PUBLIC_CONTACT_EMAIL;
+const contactEmail = 'hello@japanlivingedit.com';
 ---
 
 <BaseLayout
   title="Contact"
-  description="Contact information for Japan Living Edit."
+  description="Contact Japan Living Edit for editorial inquiries, corrections, brand information and general questions."
   pathname="/contact/"
 >
   <section class="page-intro">
     <p class="eyebrow">Contact</p>
     <h1>Contact Japan Living Edit.</h1>
     <p>
-      A direct contact address will be added after an official site email is selected.
+      For editorial inquiries, corrections, brand information or general questions,
+      please use the email below.
     </p>
   </section>
   <section class="text-block">
-    {contactEmail ? (
-      <p>Email: <a href={`mailto:${contactEmail}`}>{contactEmail}</a></p>
-    ) : (
-      <p>No public contact email is listed yet.</p>
-    )}
+    <p>Email: <a href={`mailto:${contactEmail}`}>{contactEmail}</a></p>
   </section>
 </BaseLayout>
