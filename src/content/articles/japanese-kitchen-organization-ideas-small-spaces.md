@@ -222,6 +222,8 @@ Look upward before looking outward. Measure a narrow gap before deciding it is u
 
 These are practical ideas whether your kitchen is in Tokyo, New York or somewhere else entirely.
 
+For a broader look at the design principles behind compact living, see our guide to [Japanese small-space living](https://japanlivingedit.com/articles/japanese-small-space-living-design-lessons/).
+
 ## How to Adapt These Ideas to Your Own Kitchen
 
 Do not begin by shopping for organizers.

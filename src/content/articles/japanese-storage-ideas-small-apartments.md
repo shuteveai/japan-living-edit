@@ -306,6 +306,8 @@ Look at height. Look behind doors. Pay attention to furniture depth. Protect cir
 
 Those principles can apply to a studio in Tokyo, an apartment in Chicago, or a small home almost anywhere else.
 
+For a broader editorial look at compact-home principles, see our guide to [Japanese small-space living](https://japanlivingedit.com/articles/japanese-small-space-living-design-lessons/).
+
 ## How to Audit Storage in Your Own Apartment
 
 Before buying an organizer, walk through your apartment without shopping.
