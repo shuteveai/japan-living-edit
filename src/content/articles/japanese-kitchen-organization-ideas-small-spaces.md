@@ -248,6 +248,8 @@ Choose something because it solves a defined storage problem, not because it loo
 
 That final step matters in a small home. An organization product that solves no specific problem can simply become another object to store.
 
+For storage ideas beyond the kitchen, see our guide to [Japanese storage ideas for small apartments](https://japanlivingedit.com/articles/japanese-storage-ideas-small-apartments/).
+
 ## Final Thoughts
 
 A well-organized small kitchen is not necessarily the one with the fewest things.
