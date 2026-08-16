@@ -4,7 +4,7 @@ description: "A short editorial note on the ideas this independent site will cov
 publishedDate: 2026-08-16
 category: "Organize"
 tags: ["editorial note", "japanese living", "organization"]
-draft: false
+draft: true
 affiliateDisclosure: "This article does not contain affiliate links."
 ---
 
