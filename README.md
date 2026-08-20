@@ -109,6 +109,8 @@ Use Cloudflare proxy settings carefully with GitHub Pages. If certificate provis
 
 ## Content creation workflow
 
+Repository-wide editorial and publishing instructions for coding agents are defined in `AGENTS.md`.
+
 Articles live in `src/content/articles/` as Markdown files. Required frontmatter:
 
 ```yaml
