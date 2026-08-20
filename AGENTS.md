@@ -6,9 +6,18 @@ These rules apply to coding agents working in this repository. If a task-specifi
 
 ## Editorial Position
 
-Japan Living Edit is a Japan-based independent editorial website for an international audience. It covers Japanese products, design, organization, small-space living, kitchen, coffee, and everyday home ideas.
+Japan Living Edit is a Japan-based independent editorial website for an international audience. It explores thoughtfully designed products from Japan and the practical details that make everyday objects useful, including design, organization, small-space living, kitchen, coffee, and other daily-life topics.
 
 Do not make unsupported generalizations about Japanese culture, Japanese people, or Japanese homes. Preserve article-specific scope statements when provided. Avoid claims such as "Japanese people always...", "Japanese homes always...", "the Japanese secret to...", or "Japanese minimalism teaches us..." unless supported by appropriate sources and explicitly required.
+
+Use the most relevant editorial lens for each article; not every article needs every lens, and lenses are not ranking scores:
+
+- Thoughtful Function: what problem does this detail solve?
+- Reliable Craft: what evidence supports its reliability? Use materials, construction, manufacturing information, production area, or manufacturer specifications where verified; do not turn this into an untested durability guarantee.
+- Material Experience: what does the material mean for everyday use and care? Do not present feel, comfort, grip, or similar qualities as Japan Living Edit's own experience unless actually evaluated.
+- Functional Beauty: how does the design relate to the function? Avoid empty aesthetic praise.
+
+Be precise about product origin. Use "Made in Japan" only when official primary information confirms the individual product is made in Japan. Use "Japanese brand" when the brand origin is confirmed, without assuming each product's manufacturing country. Editorially relevant non-Japanese brands may be covered when appropriate, but must not be described as Japanese brands or Japanese-made products.
 
 ## Editorial Independence
 
