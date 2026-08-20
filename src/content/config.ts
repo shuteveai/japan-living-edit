@@ -1,6 +1,12 @@
 import { defineCollection, z } from 'astro:content';
 
-const articleCategories = ['Organize', 'Small Spaces', 'Kitchen', 'Coffee'] as const;
+const articleCategories = [
+  'Organize',
+  'Small Spaces',
+  'Kitchen',
+  'Coffee',
+  'Everyday Essentials',
+] as const;
 
 const articles = defineCollection({
   type: 'content',
