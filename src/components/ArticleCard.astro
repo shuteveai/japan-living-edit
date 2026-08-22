@@ -1,8 +1,19 @@
 ---
+import { Image } from 'astro:assets';
+
 const { article } = Astro.props;
+const heroImage = article.data.heroImage;
+const heroImageAlt = article.data.heroImageAlt;
 ---
 
 <article class="article-card">
+  {
+    heroImage && heroImageAlt && (
+      <a class="article-card-image" href={`/articles/${article.slug}/`} aria-label={article.data.title}>
+        <Image src={heroImage} alt={heroImageAlt} widths={[360, 520, 720]} sizes="(min-width: 720px) 50vw, calc(100vw - 2rem)" />
+      </a>
+    )
+  }
   <p class="eyebrow">{article.data.category}</p>
   <h2><a href={`/articles/${article.slug}/`}>{article.data.title}</a></h2>
   <p>{article.data.description}</p>

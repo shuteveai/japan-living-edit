@@ -9,6 +9,7 @@ interface Props {
   description?: string;
   pathname?: string;
   type?: 'website' | 'article';
+  image?: string;
 }
 
 const {
@@ -16,9 +17,11 @@ const {
   description = site.description,
   pathname = Astro.url.pathname,
   type = 'website',
+  image,
 } = Astro.props;
 const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
 const canonical = getCanonical(pathname);
+const ogImage = image ? new URL(image, site.url).toString() : undefined;
 ---
 
 <!doctype html>
@@ -35,6 +38,7 @@ const canonical = getCanonical(pathname);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={site.name} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
