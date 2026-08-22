@@ -1,6 +1,11 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import { Image } from 'astro:assets';
+import ChikuhodoBrushVisual from '@/components/ChikuhodoBrushVisual.astro';
+import Custom823FillingVisual from '@/components/Custom823FillingVisual.astro';
+import ImabariTowelVisual from '@/components/ImabariTowelVisual.astro';
+import IshikawaBrushVisual from '@/components/IshikawaBrushVisual.astro';
+import NambuIronwareVisual from '@/components/NambuIronwareVisual.astro';
 import { site } from '@/lib/site';
 
 const { entry } = Astro.props;
@@ -47,6 +52,11 @@ const structuredData = {
         </figure>
       )
     }
+    {entry.slug === 'pilot-custom-823-vacuum-filling-system' && <Custom823FillingVisual />}
+    {entry.slug === 'why-japanese-clothes-brush-costs-50000-yen' && <IshikawaBrushVisual />}
+    {entry.slug === 'imabari-towel-five-second-rule' && <ImabariTowelVisual />}
+    {entry.slug === 'nambu-iron-kettle-vs-cast-iron-teapot' && <NambuIronwareVisual />}
+    {entry.slug === 'how-chikuhodo-kumano-makeup-brush-is-made' && <ChikuhodoBrushVisual />}
     <div class="prose">
       <slot />
     </div>
