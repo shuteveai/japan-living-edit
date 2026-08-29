@@ -22,6 +22,10 @@ export const categories = [
     title: 'Coffee',
     description: 'Brewing tools, serving pieces and quiet rituals shaped by Japanese design culture.',
   },
+  {
+    title: 'Everyday Essentials',
+    description: 'Daily-use objects, care tools and functional details that make ordinary routines easier to understand.',
+  },
 ];
 
 export function getCanonical(pathname = '/') {

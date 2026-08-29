@@ -62,6 +62,8 @@ Instead, look for obvious mismatches: a tall space occupied by one short object,
 
 Before expanding storage across the floor, check how much usable height the room is leaving empty.
 
+For a closer look at this specific technique, see our guide to [how to use vertical space in a small apartment](https://japanlivingedit.com/articles/how-to-use-vertical-space-small-apartment/).
+
 ## 2. Turn the Entryway Into a Functional Storage Zone
 
 The entryway may be one of the smallest parts of an apartment, but it handles an unusually large number of objects.
@@ -79,6 +81,8 @@ Yamazaki Home's current [Entryway + Living collection](https://theyamazakihome.c
 The important idea comes before the product:
 
 **A small entryway works better when the objects you repeatedly pick up on the way out already have a defined landing place.**
+
+For a more focused entryway example, our guide to [small entryway organization ideas for apartments](https://japanlivingedit.com/articles/small-entryway-organization-ideas-apartments/) looks at shoes, umbrellas, keys, bags, and walking paths in more detail.
 
 ## 3. Store Shoes Upward, Not Outward
 
