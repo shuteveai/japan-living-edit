@@ -2,7 +2,11 @@
 import BaseLayout from './BaseLayout.astro';
 import { Image } from 'astro:assets';
 import ChikuhodoBrushVisual from '@/components/ChikuhodoBrushVisual.astro';
+import CoffeeCornerVisual from '@/components/CoffeeCornerVisual.astro';
 import Custom823FillingVisual from '@/components/Custom823FillingVisual.astro';
+import DrawALineVisual from '@/components/DrawALineVisual.astro';
+import EntrywayVisual from '@/components/EntrywayVisual.astro';
+import GeoProductVisual from '@/components/GeoProductVisual.astro';
 import ImabariTowelVisual from '@/components/ImabariTowelVisual.astro';
 import IshikawaBrushVisual from '@/components/IshikawaBrushVisual.astro';
 import NambuIronwareVisual from '@/components/NambuIronwareVisual.astro';
@@ -52,6 +56,10 @@ const structuredData = {
         </figure>
       )
     }
+    {entry.slug === 'japanese-inspired-coffee-corner-at-home' && <CoffeeCornerVisual />}
+    {entry.slug === 'how-to-use-vertical-space-small-apartment' && <DrawALineVisual />}
+    {entry.slug === 'small-entryway-organization-ideas-apartments' && <EntrywayVisual />}
+    {entry.slug === 'inside-geo-product-japanese-cookware-seven-layers' && <GeoProductVisual />}
     {entry.slug === 'pilot-custom-823-vacuum-filling-system' && <Custom823FillingVisual />}
     {entry.slug === 'why-japanese-clothes-brush-costs-50000-yen' && <IshikawaBrushVisual />}
     {entry.slug === 'imabari-towel-five-second-rule' && <ImabariTowelVisual />}

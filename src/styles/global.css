@@ -458,6 +458,52 @@ p {
   min-width: 0;
 }
 
+.visual-card-grid,
+.entryway-map {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.visual-card-grid section,
+.entryway-map section,
+.visual-check-note {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.visual-fact-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.visual-fact-list li {
+  color: var(--ink);
+}
+
+.visual-interpretation {
+  margin: 0.2rem 0 1rem;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--gold);
+  background: var(--wash);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.visual-check-note {
+  margin-top: 0.9rem;
+}
+
+.visual-check-note p {
+  margin-bottom: 0;
+  color: var(--ink);
+}
+
 .comparison-list {
   display: grid;
   gap: 0.6rem;
@@ -570,6 +616,19 @@ p {
   }
 
   .comparison-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .visual-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .entryway-map,
+  .routine-flow {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .construction-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
