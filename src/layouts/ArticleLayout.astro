@@ -25,6 +25,11 @@ const structuredData = {
   datePublished: entry.data.publishedDate.toISOString(),
   dateModified: (entry.data.updatedDate ?? entry.data.publishedDate).toISOString(),
   mainEntityOfPage: canonical,
+  author: {
+    '@type': 'Organization',
+    name: site.name,
+    url: `${site.url}/about/`,
+  },
   publisher: {
     '@type': 'Organization',
     name: site.name,
@@ -38,6 +43,7 @@ const structuredData = {
   title={entry.data.seoTitle ?? entry.data.title}
   description={entry.data.description}
   pathname={`/articles/${entry.slug}/`}
+  canonical={canonical}
   type="article"
   image={heroImage?.src}
 >
@@ -46,6 +52,7 @@ const structuredData = {
     <h1>{entry.data.title}</h1>
     <p class="lede">{entry.data.description}</p>
     <p class="article-meta">
+      By <a href="/about/">{site.name}</a> ·
       Published <time datetime={entry.data.publishedDate.toISOString()}>{entry.data.publishedDate.toLocaleDateString('en-US')}</time>
     </p>
     <p class="notice">{entry.data.affiliateDisclosure}</p>

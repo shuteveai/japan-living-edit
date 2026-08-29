@@ -8,6 +8,7 @@ interface Props {
   title?: string;
   description?: string;
   pathname?: string;
+  canonical?: string;
   type?: 'website' | 'article';
   image?: string;
 }
@@ -16,11 +17,12 @@ const {
   title = site.name,
   description = site.description,
   pathname = Astro.url.pathname,
+  canonical: canonicalProp,
   type = 'website',
   image,
 } = Astro.props;
 const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
-const canonical = getCanonical(pathname);
+const canonicalUrl = canonicalProp ?? getCanonical(pathname);
 const ogImage = image ? new URL(image, site.url).toString() : undefined;
 ---
 
@@ -31,12 +33,12 @@ const ogImage = image ? new URL(image, site.url).toString() : undefined;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.png" type="image/png" />
     <meta property="og:type" content={type} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={site.name} />
     {ogImage && <meta property="og:image" content={ogImage} />}
   </head>
