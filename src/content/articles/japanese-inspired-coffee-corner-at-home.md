@@ -13,7 +13,7 @@ tags:
   - "kinto"
   - "coffee organization"
 draft: false
-affiliateDisclosure: "This article does not contain affiliate links."
+affiliateDisclosure: "This article contains affiliate links. As an Amazon Associate, Japan Living Edit earns from qualifying purchases."
 canonicalURL: "https://japanlivingedit.com/articles/japanese-inspired-coffee-corner-at-home/"
 ---
 
@@ -132,6 +132,10 @@ The current round-base model is rated for 1–4 cups. HARIO describes its conica
 Again, this article is not testing whether that approach is better than another brewer.
 
 The V60 simply illustrates a brewing tool whose design is closely connected to how water moves through coffee.
+
+As a material alternative in the same V60 02 size category, HARIO's V60 Ceramic Coffee Dripper 02 White, model VDC-02W, is a white porcelain dripper rated for 1–4 cups and made in Japan.
+
+<a href="https://www.amazon.co.jp/HARIO-%E3%83%8F%E3%83%AA%E3%82%AA-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%89%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%89%E3%83%AA%E3%83%83%E3%83%97-VDC-02W/dp/B000P4D5HG?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=20VHKS8JL8J48&dib=eyJ2IjoiMSJ9.FfXzbdiDCRTgt6jmKQBWZepUoS0I6wJBVpavQQnjHZErLz0nLQQAeLOc8zgNDf6X4_6qj-4pTyryf-sY7BumtU0K-ITI0JSlarHbSRD0iAPAHMp4BU6eeeHdDNNA4prSe7zf1FJt4W2HO3XFDikohNszn_rlVNnLjFRFOjNHF-MoYbvP1xJ3GvJk1zOISG6FZeQxwTyXINilQOYDyAKfADPFCNHMw4cZjkoFBd0ufShg91QjJYZ6-ul5rMGexx7D9KZ_tNqv6qQ1Xt0GoczFHE8SZZp9zOannXhAa2QEvDs.geM6CYaI4i7SuxlkEYD8VtLCjlVxpoDj00eGBna6wmg&dib_tag=se&keywords=%E3%83%8F%E3%83%AA%E3%82%AA%2Bv60%2B%E3%82%BB%E3%83%A9%E3%83%9F%E3%83%83%E3%82%AF&qid=1788070732&sprefix=%E3%83%8F%E3%83%AA%E3%82%AA%2Bv60%2B%E3%82%BB%E3%83%A9%E3%83%9F%E3%83%83%E3%82%AF%2Caps%2C213&sr=8-5&ufe=app_do%3Aamzn1.fos.35785624-70c4-44ae-a5c3-3f044f475d63&th=1&linkCode=ll2&tag=japanlivinged-22&linkId=44a0eb09f62bc4ac801b806a7cf1e668&ref_=as_li_ss_tl" rel="sponsored noopener noreferrer">View the V60 Ceramic 02 on Amazon</a> (paid link)
 
 ### Brew + Serve: KINTO SCS Coffee Carafe Set
 
