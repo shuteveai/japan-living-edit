@@ -8,6 +8,15 @@ export type AffiliateProduct = {
 };
 
 export const affiliateProducts = {
+  geoProductSaucepan16: {
+    key: 'geoProductSaucepan16',
+    displayName: 'GEO PRODUCT Saucepan 16cm',
+    manufacturer: 'Miyazaki Seisakusho',
+    model: 'GEO-16N',
+    asin: 'B0000DIJ3N',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/%E5%AE%AE%E5%B4%8E%E8%A3%BD%E4%BD%9C%E6%89%80-16cm-IH%E5%AF%BE%E5%BF%9C%E3%82%AA%E3%83%BC%E3%83%AB%E7%86%B1%E6%BA%90%E5%AF%BE%E5%BF%9C-15%E5%B9%B4%E4%BF%9D%E8%A8%BC-GEO-16N/dp/B0000DIJ3N?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9.NYxDYVuq9XBxzGyIkRpbqqHo6yUTfkxtcb1xD8KMwBTk4blp809xJL9LssYvW___9uHzgJQergLRY8v0v2gj7AytmXLkydAN07ricdrmRGrUhuErL6x7kWeIwryNLvjhfIoXY2hF1AEHM6zVYLThFiseKXzLQtt_WNV89K6t35ORlEZY1famkfN2VLZIhZ93WSvtcQnfBdACygtWBi4IAJzTI5-BNRmSEZlGayB49bHjQ7yey55idvVEgRSORWYFvt1EkdJk5G2li75jWqvOl41g1k40qtH6KKooJS9HE5Q.NHKNPOlt-3fZYGA-OvOOnl7o8VKfOUxcD5Ni8TsMKLw&dib_tag=se&keywords=GEO+PRODUCT+%E7%89%87%E6%89%8B%E9%8D%8B+16cm&qid=1788326417&sr=8-2&ufe=app_do%3Aamzn1.fos.35785624-70c4-44ae-a5c3-3f044f475d63&linkCode=ll2&tag=japanlivinged-22&linkId=1fc4360fabb1332b7e4579868c07b50b&ref_=as_li_ss_tl',
+  },
   harioV60GlassDripper02Black: {
     key: 'harioV60GlassDripper02Black',
     displayName: 'HARIO V60 Glass Dripper 02, Black',
