@@ -1,0 +1,15 @@
+---
+import { affiliateProducts, type AffiliateProductKey } from '@/data/affiliateProducts';
+
+interface Props {
+  productKey: AffiliateProductKey;
+  label?: string;
+}
+
+const { productKey, label = 'Check availability on Amazon Japan' } = Astro.props;
+const product = affiliateProducts[productKey];
+---
+
+<a href={product.amazonJpUrl} rel="sponsored noopener noreferrer" target="_blank">
+  {label}
+</a>
