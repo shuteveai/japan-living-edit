@@ -17,6 +17,15 @@ export const affiliateProducts = {
     amazonJpUrl:
       'https://www.amazon.co.jp/HARIO-%E3%83%8F%E3%83%AA%E3%82%AA-%E8%80%90%E7%86%B1%E3%82%AC%E3%83%A9%E3%82%B9%E9%80%8F%E9%81%8E%E3%83%89%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC-1%EF%BD%9E4%E6%9D%AF%E7%94%A8-VDGR-02-B/dp/B09VX9GXHS?th=1&linkCode=ll2&tag=japanlivinged-22&linkId=88465a3a6907c3269a4b7f1f63e2ecc8&ref_=as_li_ss_tl',
   },
+  iwachuIronKettle7ArareIH: {
+    key: 'iwachuIronKettle7ArareIH',
+    displayName: 'IWACHU Iron Kettle 7-Type Arare, IH Compatible',
+    manufacturer: 'IWACHU',
+    model: '11720',
+    asin: 'B091BS9VMM',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/%E5%B2%A9%E9%8B%B3-Iwachu-7%E5%9E%8B%E3%82%A2%E3%83%A9%E3%83%AC-IH%E5%AF%BE%E5%BF%9C-11720/dp/B091BS9VMM?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=3RI7BRYJAM67V&dib=eyJ2IjoiMSJ9.1e-M-kUl4Xxybex6tVxEkjhI_8IS7WsVTpnwPEDOVOYyYD0TUo1GDsHytdBwBtRH-DWjSsCXJuTbNMnLhl-vHMhlCcQOoclh-Q-vnvwHQMquh8uT1IvVARQb_vjws8o5zTnb-l7thSPsvV2jfd6N-8Id6DDNChz1mVlrXS7PQ_Siz5BuSGHfQX6s6db4rBPKIMcTq0h3uj8VEu9v2_6WwhctVqABEDWYIyNQcIYiMFduZP1k2h-_j7Tb0_Bl4LFmcIhN9dt2rn4-Bwuqrw1ffBzkcq4Zmk6425Ip1D8F6-c.42wnT2q1pkdvKLumrA2JhPJKLAAFIx51NK23d9yPHGg&dib_tag=se&keywords=%E5%B2%A9%E9%8B%B3%2B%E9%89%84%E7%93%B6%2B7%E5%9E%8B%E3%82%A2%E3%83%A9%E3%83%AC%2BIH&qid=1788324454&sprefix=%E5%B2%A9%E9%8B%B3%2B%E9%89%84%E7%93%B6%2B7%E5%9E%8B%E3%82%A2%E3%83%A9%E3%83%AC%2Bih%2Caps%2C330&sr=8-1&ufe=app_do%3Aamzn1.fos.35785624-70c4-44ae-a5c3-3f044f475d63&th=1&linkCode=ll2&tag=japanlivinged-22&linkId=271dfaf5255f36ff71420f774283820f&ref_=as_li_ss_tl',
+  },
   pilotCustom823TransparentBlackFine: {
     key: 'pilotCustom823TransparentBlackFine',
     displayName: 'PILOT CUSTOM 823, Transparent Black, Fine',
