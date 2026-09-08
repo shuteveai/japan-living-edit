@@ -8,6 +8,15 @@ export type AffiliateProduct = {
 };
 
 export const affiliateProducts = {
+  sekiMagorokuDamascusBlackSantoku165: {
+    key: 'sekiMagorokuDamascusBlackSantoku165',
+    displayName: 'KAI Seki Magoroku Damascus Black Santoku 165mm',
+    manufacturer: 'KAI Corporation',
+    model: '950AE2843',
+    asin: 'B0GFML4Y5P',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/%E9%96%A2%E5%AD%AB%E5%85%AD-%E3%83%80%E3%83%9E%E3%82%B9%E3%82%AB%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-165mm-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-AE2843/dp/B0GFML4Y5P?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2JSPBEPG67SNO&dib=eyJ2IjoiMSJ9.pAl9QAmLwdN5uDsWme9zkqB1lKd3qcw9V_D2_NsUDR4GRy4n4G03Y8HrOOSH7SZEloDaGGTbck2hEE33qoQuqgzjbysUozeNTv_XSti3dO7jsAD8oWJQsbeZSEig0_W487Id_QBBFTj1t-f5xcmbLqMLF2d2-VFn80bwLk9pHy3jli36zEEN5dElgIPYoCtd-j6maicPpzpzze5opsTxF_So8LqUSpI622Q_iBrnRLO3b5nNqtU2PpFagUX7v1UlakLs9BygQ4R2XkcL0AXhOc_Rer9Voe8UDTdu_BjPWIU.7C7OZGIXRShe5o7A0WznYlloJYJj7syuCvqaTL0BprA&dib_tag=se&keywords=%E9%96%A2%E5%AD%AB%E5%85%AD+%E3%83%80%E3%83%9E%E3%82%B9%E3%82%AB%E3%82%B9+%E4%B8%89%E5%BE%B3%E5%8C%85%E4%B8%81+165mm&qid=1788755723&sprefix=%E9%96%A2%E5%AD%AB%E5%85%AD+%E3%83%80%E3%83%9E%E3%82%B9%E3%82%AB%E3%82%B9+%E4%B8%89%E5%BE%B3%E5%8C%85%E4%B8%81+165mm%2Caps%2C322&sr=8-6&ufe=app_do%3Aamzn1.fos.35785624-70c4-44ae-a5c3-3f044f475d63&linkCode=ll2&tag=japanlivinged-22&linkId=346e5c9b519434bedce0f23ff2a14d75&ref_=as_li_ss_tl',
+  },
   geoProductSaucepan16: {
     key: 'geoProductSaucepan16',
     displayName: 'GEO PRODUCT Saucepan 16cm',
