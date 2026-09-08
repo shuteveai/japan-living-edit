@@ -8,6 +8,15 @@ export type AffiliateProduct = {
 };
 
 export const affiliateProducts = {
+  nychairXNy125: {
+    key: 'nychairXNy125',
+    displayName: 'Nychair X NY-125',
+    manufacturer: 'FUJIEI',
+    model: 'NY-125',
+    asin: 'B01484CO6G',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/NychairX-NY-125-%E3%83%8B%E3%83%BC%E3%83%81%E3%82%A7%E3%82%A2X-%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%A1%E3%83%AB/dp/B01484CO6G?mcid=6b15dd8f8e3b305d88af128b55514072&hvadid=707560138250&hvpos=&hvnetw=g&hvrand=15711211053992683247&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1028853&hvtargid=pla-442713427158&hvocijid=15711211053992683247-B01484CO6G-&hvexpln=0&th=1&linkCode=ll2&tag=japanlivinged-22&linkId=f999051c4def1756727477dc4f2bf571&ref_=as_li_ss_tl',
+  },
   sekiMagorokuDamascusBlackSantoku165: {
     key: 'sekiMagorokuDamascusBlackSantoku165',
     displayName: 'KAI Seki Magoroku Damascus Black Santoku 165mm',
