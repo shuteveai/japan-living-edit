@@ -67,6 +67,15 @@ export const affiliateProducts = {
     amazonJpUrl:
       'https://www.amazon.co.jp/HARIO-%E3%83%8F%E3%83%AA%E3%82%AA-%E8%80%90%E7%86%B1%E3%82%AC%E3%83%A9%E3%82%B9%E9%80%8F%E9%81%8E%E3%83%89%E3%83%AA%E3%83%83%E3%83%91%E3%83%BC-1%EF%BD%9E4%E6%9D%AF%E7%94%A8-VDGR-02-B/dp/B09VX9GXHS?th=1&linkCode=ll2&tag=japanlivinged-22&linkId=88465a3a6907c3269a4b7f1f63e2ecc8&ref_=as_li_ss_tl',
   },
+  harioImmersionDripperSwitchSsd200B: {
+    key: 'harioImmersionDripperSwitchSsd200B',
+    displayName: 'HARIO Immersion Dripper SWITCH SSD-200-B',
+    manufacturer: 'HARIO',
+    model: 'SSD-200-B',
+    asin: 'B07NS2SV3W',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/dp/B07NS2SV3W?linkCode=ll2&tag=japanlivinged-22&ref_=as_li_ss_tl',
+  },
   iwachuIronKettle7ArareIH: {
     key: 'iwachuIronKettle7ArareIH',
     displayName: 'IWACHU Iron Kettle 7-Type Arare, IH Compatible',
