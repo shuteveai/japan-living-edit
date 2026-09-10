@@ -1,0 +1,28 @@
+---
+import { affiliateProducts, type AffiliateProduct, type AffiliateProductKey } from '@/data/affiliateProducts';
+import AffiliateProductLink from './AffiliateProductLink.astro';
+
+interface Props {
+  productKey: AffiliateProductKey;
+  label?: string;
+}
+
+const { productKey, label = 'Check availability on Amazon Japan' } = Astro.props;
+const product: AffiliateProduct = affiliateProducts[productKey];
+---
+
+{
+  product.image ? (
+    <aside class="affiliate-product-card">
+      <img src={product.image.url} alt={product.image.alt} loading="lazy" decoding="async" />
+      <div>
+        <p class="affiliate-product-card-title">{product.displayName}</p>
+        <AffiliateProductLink productKey={productKey} label={label} /> <span class="paid-link-note">(paid link)</span>
+      </div>
+    </aside>
+  ) : (
+    <p class="affiliate-product-card-fallback">
+      <AffiliateProductLink productKey={productKey} label={label} /> <span class="paid-link-note">(paid link)</span>
+    </p>
+  )
+}

@@ -179,6 +179,37 @@ p {
   color: var(--paper);
 }
 
+.affiliate-product-card {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.affiliate-product-card img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  background: var(--wash);
+}
+
+.affiliate-product-card-title {
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.affiliate-product-card-fallback {
+  margin: 1.25rem 0;
+}
+
+.paid-link-note {
+  color: var(--muted);
+}
+
 .hero-visual {
   margin: 0;
   overflow: hidden;

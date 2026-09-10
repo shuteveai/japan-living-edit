@@ -5,6 +5,11 @@ export type AffiliateProduct = {
   model: string;
   asin: string;
   amazonJpUrl: string;
+  image?: {
+    url: string;
+    alt: string;
+    source: 'amazon-api' | 'manufacturer-authorized';
+  };
 };
 
 export const affiliateProducts = {
