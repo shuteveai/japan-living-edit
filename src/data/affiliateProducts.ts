@@ -17,6 +17,15 @@ export const affiliateProducts = {
     amazonJpUrl:
       'https://www.amazon.co.jp/%E3%82%AB%E3%82%A4%E3%82%A4%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%82%BA-7250-%E8%B2%9D%E5%8D%B0-%E8%81%B7%E5%B0%82%E3%83%A9%E3%82%B7%E3%83%A3%E9%8B%8F-250%E3%8E%9C/dp/B002P8YRYA?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1EOTXS21G7DRD&dib=eyJ2IjoiMSJ9.zkzHwV7-7E0SzoVxTFebwEgRHUpAtIG65CeZToO7bFr0M93r9v-UUuNMyv0Wp6ekc-o2TDO4WmDjrusKzHC_KHfklHJlEQImpjh_9Nn_Kc4.a9e4FQbBgffVuE8bKtpxaJlyLWmfl-V65j52AsQUnTw&dib_tag=se&keywords=KAI%2B7250%2B250mm&qid=1788933121&sprefix=%2Caps%2C284&sr=8-2&ufe=app_do%3Aamzn1.fos.35785624-70c4-44ae-a5c3-3f044f475d63&th=1&linkCode=ll2&tag=japanlivinged-22&linkId=c5b966092618a9c4f0b4b0bb8c8770ca&ref_=as_li_ss_tl',
   },
+  engineerNejiSaurusGtPz58: {
+    key: 'engineerNejiSaurusGtPz58',
+    displayName: 'ENGINEER Neji-Saurus GT PZ-58',
+    manufacturer: 'ENGINEER',
+    model: 'PZ-58',
+    asin: 'B002L6HJAA',
+    amazonJpUrl:
+      'https://www.amazon.co.jp/dp/B002L6HJAA?linkCode=ll2&tag=japanlivinged-22&ref_=as_li_ss_tl',
+  },
   nychairXNy125: {
     key: 'nychairXNy125',
     displayName: 'Nychair X NY-125',
