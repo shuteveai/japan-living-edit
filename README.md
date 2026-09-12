@@ -2,7 +2,7 @@
 
 Japan Living Edit is an independent English-language editorial website for international readers, primarily in the United States. It introduces thoughtfully designed products, practical ideas and everyday approaches to living from Japan, with focus areas including organization, small-space living, kitchen and coffee.
 
-This project intentionally avoids affiliate links, tracking scripts, advertising scripts, a backend server, a database, WordPress, CMS tooling and paid services at launch.
+Some articles use Amazon Associates affiliate links. The site has no analytics, affiliate tracking scripts, advertising scripts, backend server, database, WordPress, CMS tooling, newsletter signup or contact form.
 
 ## Tech stack
 
@@ -126,16 +126,18 @@ heroImage: "/optional-local-image.webp"
 canonicalURL: "https://japanlivingedit.com/articles/example/"
 ```
 
-Allowed categories are `Organize`, `Small Spaces`, `Kitchen` and `Coffee`.
+Allowed categories are `Organize`, `Small Spaces`, `Kitchen`, `Coffee` and `Everyday Essentials`.
 
 Set `draft: true` for unpublished articles. Draft articles are excluded from production article pages.
 
 ## Affiliate status
 
-Affiliate links are not active yet. Do not add affiliate IDs, fake affiliate URLs, commission claims, product review claims, testimonials or partnership language unless those statements are accurate and approved.
+Japan Living Edit participates in Amazon Associates. Some articles contain external affiliate links to Amazon Japan with identifying parameters. Editorial coverage remains independent of affiliate availability. Do not invent affiliate URLs, product review claims, testimonials or partnership language.
 
-If affiliate links are added in the future:
+When adding affiliate links:
 
+- Verify an exact match between the covered product, model and ASIN.
+- Use the centrally managed product data in `src/data/affiliateProducts.ts` and the existing affiliate components.
 - Update article-level `affiliateDisclosure` text.
 - Update `/disclosure/` if needed.
 - Keep external links easy to audit.
@@ -143,15 +145,15 @@ If affiliate links are added in the future:
 
 ## Image and copyright policy
 
-Do not copy, download or reuse official product images from Yamazaki Home, KINTO or other brands. Do not pull images from third-party websites.
+Do not copy, download or reuse third-party product images or brand logos without permission. Do not pull images from third-party websites without authorization.
 
-At launch, the site uses CSS-based abstract placeholders only. Future images should be original, properly licensed or brand-approved.
+The site uses a local homepage hero image and HTML/CSS editorial visuals to explain processes, mechanisms and comparisons, and supports local article images. Images should be original, properly licensed or brand-approved.
 
 ## Future analytics and privacy updates
 
-The current site has no Google Analytics, advertising scripts, affiliate tracking, newsletter signup or contact form.
+The current site has no Google Analytics, advertising scripts, affiliate tracking scripts, newsletter signup or contact form. External Amazon Japan affiliate links contain identifying parameters; information handling after a reader opens an external link is governed by the destination service's privacy policy.
 
-Before adding analytics, ads, affiliate tracking, newsletter tooling, forms or other data collection, update:
+Before adding analytics, ads, affiliate tracking scripts, newsletter tooling, forms or other data collection, update:
 
 - `src/pages/privacy.astro`
 - `src/pages/disclosure.astro` when relevant
