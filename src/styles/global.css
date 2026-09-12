@@ -34,6 +34,11 @@ a:hover {
   color: var(--accent-dark);
 }
 
+a:focus-visible {
+  outline: 2px solid var(--accent-dark);
+  outline-offset: 4px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -256,6 +261,82 @@ p {
 
 .article-card h2 {
   font-size: 1.45rem;
+}
+
+.category-card {
+  display: block;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.category-card h3 {
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.22em;
+}
+
+.category-card:hover {
+  border-color: var(--accent-dark);
+}
+
+.category-card p {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.category-nav {
+  margin-bottom: 2rem;
+}
+
+.category-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-nav li {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.category-nav a,
+.view-all a {
+  display: inline-block;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  overflow-wrap: anywhere;
+}
+
+.category-nav a:hover,
+.view-all a:hover {
+  border-color: var(--accent-dark);
+}
+
+.view-all {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.related-articles {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.related-articles h2 {
+  font-size: 1.55rem;
+}
+
+.related-articles ul {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  overflow-wrap: anywhere;
 }
 
 .article-card-image {

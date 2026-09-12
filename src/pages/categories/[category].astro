@@ -1,0 +1,39 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPublishedArticles } from '@/lib/articles';
+import { categories } from '@/lib/site';
+
+export const getStaticPaths = (async () => {
+  const articles = await getPublishedArticles();
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      articles: articles.filter((article) => article.data.category === category.title),
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+const { category, articles } = Astro.props;
+---
+
+<BaseLayout
+  title={category.title}
+  description={category.description}
+  pathname={`/categories/${category.slug}/`}
+>
+  <section class="page-intro">
+    <p class="eyebrow">Category</p>
+    <h1>{category.title}</h1>
+    <p>{category.description}</p>
+    <p>{articles.length} published {articles.length === 1 ? 'article' : 'articles'}</p>
+  </section>
+  <section class="section" aria-label={`${category.title} articles`}>
+    <div class="article-grid">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>

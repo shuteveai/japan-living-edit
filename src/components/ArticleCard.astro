@@ -1,5 +1,11 @@
 ---
 import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { getCategorySlug } from '@/lib/site';
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+}
 
 const { article } = Astro.props;
 const heroImage = article.data.heroImage;
@@ -14,7 +20,7 @@ const heroImageAlt = article.data.heroImageAlt;
       </a>
     )
   }
-  <p class="eyebrow">{article.data.category}</p>
+  <p class="eyebrow"><a href={`/categories/${getCategorySlug(article.data.category)}/`}>{article.data.category}</a></p>
   <h2><a href={`/articles/${article.slug}/`}>{article.data.title}</a></h2>
   <p>{article.data.description}</p>
   <time datetime={article.data.publishedDate.toISOString()}>

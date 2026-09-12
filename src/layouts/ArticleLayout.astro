@@ -10,9 +10,18 @@ import GeoProductVisual from '@/components/GeoProductVisual.astro';
 import ImabariTowelVisual from '@/components/ImabariTowelVisual.astro';
 import IshikawaBrushVisual from '@/components/IshikawaBrushVisual.astro';
 import NambuIronwareVisual from '@/components/NambuIronwareVisual.astro';
-import { site } from '@/lib/site';
+import type { CollectionEntry } from 'astro:content';
+import { getPublishedArticles } from '@/lib/articles';
+import { getCategorySlug, site } from '@/lib/site';
+
+interface Props {
+  entry: CollectionEntry<'articles'>;
+}
 
 const { entry } = Astro.props;
+const relatedArticles = (await getPublishedArticles())
+  .filter((article) => article.slug !== entry.slug && article.data.category === entry.data.category)
+  .slice(0, 3);
 const canonical = entry.data.canonicalURL ?? `${site.url}/articles/${entry.slug}/`;
 const heroImage = entry.data.heroImage;
 const heroImageAlt = entry.data.heroImageAlt;
@@ -48,7 +57,7 @@ const structuredData = {
   image={heroImage?.src}
 >
   <article class="article-shell">
-    <p class="eyebrow">{entry.data.category}</p>
+    <p class="eyebrow"><a href={`/categories/${getCategorySlug(entry.data.category)}/`}>{entry.data.category}</a></p>
     <h1>{entry.data.title}</h1>
     <p class="lede">{entry.data.description}</p>
     <p class="article-meta">
@@ -75,6 +84,16 @@ const structuredData = {
     <div class="prose">
       <slot />
     </div>
+    {relatedArticles.length > 0 && (
+      <section class="related-articles" aria-labelledby="related-articles-heading">
+        <h2 id="related-articles-heading">More in {entry.data.category}</h2>
+        <ul>
+          {relatedArticles.map((article) => (
+            <li><a href={`/articles/${article.slug}/`}>{article.data.title}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 </BaseLayout>

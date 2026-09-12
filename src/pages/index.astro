@@ -6,7 +6,7 @@ import homeHeroImage from '@/assets/japan-living-edit-home-hero.png';
 import { getPublishedArticles } from '@/lib/articles';
 import { categories, site } from '@/lib/site';
 
-const articles = await getPublishedArticles();
+const articles = (await getPublishedArticles()).slice(0, 6);
 const structuredData = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -58,10 +58,10 @@ const structuredData = {
     </div>
     <div class="category-grid">
       {categories.map((category) => (
-        <article class="category-card">
+        <a class="category-card" href={`/categories/${category.slug}/`}>
           <h3>{category.title}</h3>
           <p>{category.description}</p>
-        </article>
+        </a>
       ))}
     </div>
   </section>
@@ -74,6 +74,7 @@ const structuredData = {
     <div class="article-grid">
       {articles.map((article) => <ArticleCard article={article} />)}
     </div>
+    <p class="view-all"><a href="/articles/">View all articles</a></p>
   </section>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 </BaseLayout>

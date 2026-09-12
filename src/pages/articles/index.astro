@@ -2,6 +2,7 @@
 import ArticleCard from '@/components/ArticleCard.astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getPublishedArticles } from '@/lib/articles';
+import { categories } from '@/lib/site';
 
 const articles = await getPublishedArticles();
 ---
@@ -20,6 +21,17 @@ const articles = await getPublishedArticles();
     </p>
   </section>
   <section class="section">
+    <nav class="category-nav" aria-label="Browse articles by category">
+      <ul>
+        {categories.map((category) => (
+          <li>
+            <a href={`/categories/${category.slug}/`}>
+              {category.title} <span>({articles.filter((article) => article.data.category === category.title).length})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
     <div class="article-grid">
       {articles.map((article) => <ArticleCard article={article} />)}
     </div>
