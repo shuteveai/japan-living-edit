@@ -40,7 +40,9 @@ or:
 pnpm run build
 ```
 
-The build runs `astro check` before generating the static site in `dist/`.
+The build runs Astro check, Astro build, and generated-site validation for metadata, internal links, sitemap consistency, draft exclusion and affiliate link attributes.
+
+Run `pnpm run check:site` to validate an existing `dist/` independently, without rebuilding or accessing the network.
 
 ## Deployment
 

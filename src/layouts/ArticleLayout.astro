@@ -55,6 +55,10 @@ const structuredData = {
   canonical={canonical}
   type="article"
   image={heroImage?.src}
+  imageAlt={heroImageAlt}
+  publishedTime={entry.data.publishedDate.toISOString()}
+  modifiedTime={(entry.data.updatedDate ?? entry.data.publishedDate).toISOString()}
+  articleSection={entry.data.category}
 >
   <article class="article-shell">
     <p class="eyebrow"><a href={`/categories/${getCategorySlug(entry.data.category)}/`}>{entry.data.category}</a></p>

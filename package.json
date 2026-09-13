@@ -6,9 +6,10 @@
   "packageManager": "pnpm@11.19.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && node scripts/check-site-output.mjs",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "check:site": "node scripts/check-site-output.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

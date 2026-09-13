@@ -1,6 +1,7 @@
 ---
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import fallbackImage from '@/assets/japan-living-edit-home-hero.png';
 import { getCanonical, site } from '@/lib/site';
 import '@/styles/global.css';
 
@@ -11,6 +12,10 @@ interface Props {
   canonical?: string;
   type?: 'website' | 'article';
   image?: string;
+  imageAlt?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  articleSection?: string;
 }
 
 const {
@@ -20,10 +25,15 @@ const {
   canonical: canonicalProp,
   type = 'website',
   image,
+  imageAlt,
+  publishedTime,
+  modifiedTime,
+  articleSection,
 } = Astro.props;
 const pageTitle = title === site.name ? title : `${title} | ${site.name}`;
 const canonicalUrl = canonicalProp ?? getCanonical(pathname);
-const ogImage = image ? new URL(image, site.url).toString() : undefined;
+const ogImage = new URL(image ?? fallbackImage.src, site.url).toString();
+const ogImageAlt = imageAlt ?? 'Editorial still life of cookware, ceramics, textiles, and greenery representing Japanese everyday design.';
 ---
 
 <!doctype html>
@@ -40,7 +50,21 @@ const ogImage = image ? new URL(image, site.url).toString() : undefined;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:site_name" content={site.name} />
-    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
+    {type === 'article' && (
+      <>
+        <meta property="article:published_time" content={publishedTime} />
+        <meta property="article:modified_time" content={modifiedTime} />
+        <meta property="article:section" content={articleSection} />
+      </>
+    )}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
