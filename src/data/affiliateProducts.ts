@@ -13,6 +13,22 @@ export type AffiliateProduct = {
 };
 
 export const affiliateProducts = {
+  ktcGw05003TorqueWrench: {
+    key: 'ktcGw05003TorqueWrench',
+    displayName: 'KTC GW050-03 9.5 sq. Preset Torque Wrench, 10–50 N·m',
+    manufacturer: 'KTC (Kyoto Tool Co., Ltd.)',
+    model: 'GW050-03',
+    asin: 'B08KFY22Z9',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B08KFY22Z9?tag=japanlivinged-22',
+  },
+  mitutoyoCd15AxCaliper: {
+    key: 'mitutoyoCd15AxCaliper',
+    displayName: 'Mitutoyo CD-15AX ABS Digimatic Caliper, 500-151-30',
+    manufacturer: 'Mitutoyo',
+    model: 'CD-15AX / 500-151-30',
+    asin: 'B00I0NRKWU',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B00I0NRKWU?tag=japanlivinged-22',
+  },
   kai7250ProfessionalShears: {
     key: 'kai7250ProfessionalShears',
     displayName: 'KAI 7250 Professional Shears 250mm',
