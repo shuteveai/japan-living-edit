@@ -134,6 +134,14 @@ export const affiliateProducts = {
     asin: 'B0CJM5W1X8',
     amazonJpUrl: 'https://www.amazon.co.jp/dp/B0CJM5W1X8?tag=japanlivinged-22',
   },
+  silkyGomboy240: {
+    key: 'silkyGomboy240',
+    displayName: 'Silky GOMBOY 240 Folding Saw',
+    manufacturer: 'U.M. KOGYO (Silky)',
+    model: '121-24',
+    asin: 'B000CED1OG',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B000CED1OG?tag=japanlivinged-22',
+  },
 } satisfies Record<string, AffiliateProduct>;
 
 export type AffiliateProductKey = keyof typeof affiliateProducts;
