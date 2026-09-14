@@ -118,6 +118,14 @@ export const affiliateProducts = {
     asin: 'B00CFDW88W',
     amazonJpUrl: 'https://www.amazon.co.jp/dp/B00CFDW88W?tag=japanlivinged-22',
   },
+  hakkoFx888Dx81By: {
+    key: 'hakkoFx888Dx81By',
+    displayName: 'HAKKO FX-888DX-81BY Temperature-Controlled Soldering Station',
+    manufacturer: 'HAKKO',
+    model: 'FX888DX-81BY',
+    asin: 'B0D9JCB2WP',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B0D9JCB2WP?tag=japanlivinged-22',
+  },
 } satisfies Record<string, AffiliateProduct>;
 
 export type AffiliateProductKey = keyof typeof affiliateProducts;
