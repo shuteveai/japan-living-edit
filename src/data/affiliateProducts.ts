@@ -142,6 +142,14 @@ export const affiliateProducts = {
     asin: 'B000CED1OG',
     amazonJpUrl: 'https://www.amazon.co.jp/dp/B000CED1OG?tag=japanlivinged-22',
   },
+  yamazakiTowerBreadBox4352White: {
+    key: 'yamazakiTowerBreadBox4352White',
+    displayName: 'Yamazaki Home Tower Bread Box 4352, White',
+    manufacturer: 'Yamazaki Home',
+    model: '4352',
+    asin: 'B07WVCKT16',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B07WVCKT16?tag=japanlivinged-22',
+  },
 } satisfies Record<string, AffiliateProduct>;
 
 export type AffiliateProductKey = keyof typeof affiliateProducts;
