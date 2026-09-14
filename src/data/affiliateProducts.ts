@@ -126,6 +126,14 @@ export const affiliateProducts = {
     asin: 'B0D9JCB2WP',
     amazonJpUrl: 'https://www.amazon.co.jp/dp/B0D9JCB2WP?tag=japanlivinged-22',
   },
+  balmudaTheToasterK11aBk: {
+    key: 'balmudaTheToasterK11aBk',
+    displayName: 'BALMUDA The Toaster K11A-BK, Black',
+    manufacturer: 'BALMUDA',
+    model: 'K11A-BK',
+    asin: 'B0CJM5W1X8',
+    amazonJpUrl: 'https://www.amazon.co.jp/dp/B0CJM5W1X8?tag=japanlivinged-22',
+  },
 } satisfies Record<string, AffiliateProduct>;
 
 export type AffiliateProductKey = keyof typeof affiliateProducts;
