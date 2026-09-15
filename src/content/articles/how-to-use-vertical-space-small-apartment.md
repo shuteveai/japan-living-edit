@@ -64,6 +64,8 @@ Before adding anything, check movement through the space as well. Vertical stora
 
 The best location is therefore not necessarily the largest empty vertical area. It is the smallest suitable zone that supports a real routine.
 
+Laundry is one routine where that decision often needs to stay temporary; our [small-apartment drying zone guide](/articles/small-apartment-laundry-drying-japanese-systems/) applies the same location-first approach to drying space.
+
 ## 3. Decide Whether You Need Hanging or a Surface
 
 Most simple vertical-storage problems can first be divided into two functions: hanging and surface.

@@ -198,6 +198,8 @@ The principle matters more than the mechanism:
 
 **Laundry storage should support movement, because laundry itself moves through the home.**
 
+For the drying stage specifically, see our [small-apartment laundry drying guide](/articles/small-apartment-laundry-drying-japanese-systems/), which focuses on temporary zones and the route from washing to folding.
+
 When storage follows the task, there is less need for temporary piles between stages.
 
 ## 9. Group Small Items by Task, Not Just by Room
