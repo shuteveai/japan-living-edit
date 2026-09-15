@@ -146,6 +146,8 @@ That does not mean the goal is an empty countertop.
 
 A kettle you use several times a day may deserve its place. So might a cutting board that is constantly in use.
 
+For a specific example of how a kitchen appliance occupies counter space and shapes a workflow, see our guide to [BALMUDA The Toaster's steam design](/articles/balmuda-the-toaster-steam-design/).
+
 Protect working space without turning organization into a rule that everything must disappear.
 
 ## 8. Choose Movable Storage When Flexibility Matters
