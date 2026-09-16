@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">KTC GW050-03 preset torque range</title>
+  <desc id="desc">A schematic range line from 10 to 50 newton metres showing the preset operating range and clockwise-only direction.</desc>
+  <rect width="900" height="260" fill="#fbfaf6"/>
+  <g stroke="#21312b" stroke-width="4" fill="none">
+    <path d="M120 145h660"/>
+    <path d="M120 125v40m660-40v40"/>
+    <path d="M120 145h660" stroke="#b88948" stroke-width="12"/>
+  </g>
+  <g fill="#21312b" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="120" y="95" font-size="28" font-weight="700">10 N·m</text>
+    <text x="780" y="95" font-size="28" font-weight="700">50 N·m</text>
+    <text x="450" y="118" font-size="20">preset torque operating range</text>
+    <text x="450" y="205" font-size="24" font-weight="700">clockwise only</text>
+    <text x="450" y="235" font-size="17" fill="#5d6861">The range does not choose the required target torque.</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Digital caliper measurement schematic</title>
+  <desc id="desc">A general digital caliper schematic labels outside, inside, and depth measurement, with a 0 to 150 millimetre range and 0.01 millimetre resolution.</desc>
+  <rect width="900" height="300" fill="#fbfaf6"/>
+  <g fill="none" stroke="#21312b" stroke-width="4" stroke-linecap="round">
+    <path d="M120 125h500"/>
+    <path d="M190 125V75m0 50 40 40m-40-40-40 40M550 125V75m0 50 40 40m-40-40-40 40"/>
+    <path d="M620 125h90v70"/>
+    <rect x="530" y="90" width="125" height="42" rx="6" fill="#f1eee6"/>
+    <path d="M710 195h80"/>
+  </g>
+  <g fill="#21312b" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="190" y="55" font-size="21" font-weight="700">inside</text>
+    <text x="550" y="55" font-size="21" font-weight="700">outside</text>
+    <text x="750" y="225" font-size="21" font-weight="700">depth</text>
+    <text x="592" y="118" font-size="17">digital display</text>
+    <text x="250" y="270" font-size="22" font-weight="700">0–150 mm range</text>
+    <text x="650" y="270" font-size="22" font-weight="700">0.01 mm resolution</text>
+  </g>
+</svg>

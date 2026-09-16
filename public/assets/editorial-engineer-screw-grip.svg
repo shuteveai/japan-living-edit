@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Damaged screw gripping direction schematic</title>
+  <desc id="desc">A schematic shows a damaged screw recess and an outside gripping approach for a removal-specific plier role.</desc>
+  <rect width="900" height="260" fill="#fbfaf6"/>
+  <g fill="none" stroke="#21312b" stroke-width="4">
+    <circle cx="220" cy="125" r="54" fill="#f1eee6"/>
+    <path d="m195 100 50 50m0-50-50 50" stroke="#9d4638"/>
+    <path d="M420 125h110" stroke="#b88948"/>
+    <path d="m515 114 15 11-15 11" fill="#b88948" stroke="#b88948"/>
+    <path d="M650 78v94m-35-70 35-24 35 24m-70 46 35 24 35-24"/>
+  </g>
+  <g fill="#21312b" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="220" y="215" font-size="22" font-weight="700">damaged recess</text>
+    <text x="475" y="95" font-size="21">change contact point</text>
+    <text x="650" y="215" font-size="22" font-weight="700">outside grip</text>
+    <text x="450" y="245" font-size="18" fill="#5d6861">Removal-specific role — not an ordinary fastening tool.</text>
+  </g>
+</svg>

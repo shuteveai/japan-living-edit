@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Soldering station, handpiece, and holder relationship</title>
+  <desc id="desc">A schematic flow from a temperature-controlled station to a handpiece and then to a holder between tasks.</desc>
+  <rect width="900" height="260" fill="#fbfaf6"/>
+  <g fill="none" stroke="#21312b" stroke-width="3">
+    <rect x="45" y="70" width="220" height="110" rx="10" fill="#f1eee6"/>
+    <rect x="340" y="70" width="220" height="110" rx="10" fill="#f1eee6"/>
+    <rect x="635" y="70" width="220" height="110" rx="10" fill="#f1eee6"/>
+    <path d="M265 125h75m220 0h75" stroke="#b88948"/>
+    <path d="m325 114 15 11-15 11m220-22 15 11-15 11" fill="#b88948" stroke="#b88948"/>
+  </g>
+  <g fill="#21312b" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="155" y="112" font-size="24" font-weight="700">Station</text>
+    <text x="155" y="143" font-size="18">temperature control</text>
+    <text x="450" y="112" font-size="24" font-weight="700">Handpiece</text>
+    <text x="450" y="143" font-size="18">heated working tip</text>
+    <text x="745" y="112" font-size="24" font-weight="700">Holder</text>
+    <text x="745" y="143" font-size="18">defined return point</text>
+    <text x="450" y="225" font-size="18" fill="#5d6861">Conceptual flow — hot tip returns to the holder, not the work surface.</text>
+  </g>
+</svg>
