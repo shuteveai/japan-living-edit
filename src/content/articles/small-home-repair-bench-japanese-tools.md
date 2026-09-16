@@ -37,6 +37,8 @@ Some tasks should not be combined casually. A clean measurement area is differen
 
 This task-first approach also gives you permission to leave a tool out of the setup. If you rarely solder, a soldering station can remain stored until it is needed. If you do not have a task with a specified torque, a torque wrench does not add useful control by itself.
 
+For the decision that comes before bench setup, see our guide to [choosing tools for small home repairs by task](/articles/choose-tools-small-home-repairs-by-task/), which focuses on matching a defined task to a tool role.
+
 ## 3. Build Three Working Zones: Clean, Cutting, and Hot Work
 
 Three simple zones cover many planning decisions.

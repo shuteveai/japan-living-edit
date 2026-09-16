@@ -21,6 +21,8 @@ In a small home, that order creates two problems at once: an object that may be 
 
 This guide is about planning and boundaries. It does not provide repair procedures or decide when a person is qualified to perform a particular job.
 
+This planning step comes before choosing a tool role: first decide whether the task should be owned, borrowed, hired, or deferred, then identify what the work requires.
+
 ## 1. Start With a Maintenance Inventory
 
 List the recurring conditions you actually notice: a loose fastener, a measurement needed before ordering a part, a damaged screw, or a garden cutting task. Describe the object and the desired information or outcome without naming a tool yet.

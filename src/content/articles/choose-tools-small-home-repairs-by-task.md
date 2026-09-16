@@ -21,6 +21,8 @@ Before looking at brands or adding another object to a drawer, define what needs
 
 This guide is a role-based decision framework. The Japanese tools mentioned here are examples of distinct roles, not a required household set or a recommendation to own all of them.
 
+The focus is choosing the tool role for a defined repair task, rather than deciding what to own or buy in general.
+
 ## 1. Define the Repair Task Before Choosing a Tool
 
 Write the task in one sentence. “Measure a replacement part” is more useful than “buy a precision tool.” “Remove a damaged screw” is more useful than “find stronger pliers.”

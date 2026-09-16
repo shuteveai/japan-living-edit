@@ -27,6 +27,8 @@ The repair bench is the place where work happens. Storage is what makes that pla
 
 Our guide to [setting up a small home repair bench](/articles/small-home-repair-bench-japanese-tools/) covers the work surface, lighting, task zones, and setup boundaries. This article starts after that decision: where should each tool live before the work begins, and how should it return when the task is over?
 
+If the task has not yet earned a tool or storage place, start with our guide to [planning small-home maintenance tasks before buying tools](/articles/plan-small-home-maintenance-tasks-before-buying-tools/) before organizing the result.
+
 In a small home, storage should answer three questions:
 
 - Can the right tool be retrieved without emptying a box?
@@ -64,6 +66,8 @@ Blades and teeth change the storage question. A pruning shear, folding saw, or r
 The [ARS V-8PRO guide](/articles/ars-v8pro-replaceable-blade-pruning-shears/) explains the narrow role of a replaceable-blade pruning shear. The [Silky GOMBOY 240 guide](/articles/silky-gomboy-240-folding-saw-design/) examines a folding saw whose storage form is part of its design. These links are examples of different cutting-tool roles, not a required cutting category for every home.
 
 Use the maker’s instructions for guards, folding positions, replacement parts, and cleaning. Keep the storage location predictable, and avoid placing loose blades where they can contact other tools during retrieval.
+
+For the risk boundary around cutting and hot-work storage, see our guide to [storing cutting and hot tools safely in a small home](/articles/store-cutting-hot-tools-safely-small-home/).
 
 ## 6. Give Hot-Work Tools Their Own Cooling and Storage Routine
 
