@@ -34,6 +34,8 @@ The useful question is:
 
 Five ideas can help answer that question: frequency, footprint, function, duplication, and storage logic.
 
+Those same questions are useful when [choosing a cutting board for a small kitchen](/articles/japanese-cutting-board-small-kitchen/), where working area, material, weight, and drying route all affect the space a tool needs.
+
 ## 1. Ask What the Tool Does Often Enough to Deserve Space
 
 Frequency is a useful place to begin.

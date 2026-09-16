@@ -146,6 +146,8 @@ That does not mean the goal is an empty countertop.
 
 A kettle you use several times a day may deserve its place. So might a cutting board that is constantly in use.
 
+The related guide to [cutting board storage and counter space](/articles/japanese-cutting-board-small-kitchen/) looks more closely at how that everyday board fits the preparation, washing, drying, and storage sequence.
+
 For a specific example of how a kitchen appliance occupies counter space and shapes a workflow, see our guide to [BALMUDA The Toaster's steam design](/articles/balmuda-the-toaster-steam-design/).
 
 Protect working space without turning organization into a rule that everything must disappear.
