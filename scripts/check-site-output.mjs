@@ -162,7 +162,9 @@ function check() {
         const url = new URL(href, origin);
         const rel = (attributes.rel ?? '').split(/\s+/);
         const affiliate = rel.includes('sponsored') || ['tag', 'affiliate', 'affiliate_id', 'aff_id'].some((key) => url.searchParams.has(key));
-        if (affiliate && !['sponsored', 'noopener', 'noreferrer'].every((token) => rel.includes(token))) fail(file, `affiliate link is missing sponsored/noopener/noreferrer: ${url.origin}${url.pathname}`);
+        const rakutenGeneratedLink = url.hostname === 'hb.afl.rakuten.co.jp';
+        const requiredAffiliateRel = rakutenGeneratedLink ? ['nofollow', 'sponsored', 'noopener'] : ['sponsored', 'noopener', 'noreferrer'];
+        if (affiliate && !requiredAffiliateRel.every((token) => rel.includes(token))) fail(file, `affiliate link is missing required rel values (${requiredAffiliateRel.join(' ')}): ${url.origin}${url.pathname}`);
       } catch { fail(file, `invalid href: ${href}`); }
     }
   }
