@@ -182,6 +182,8 @@ For coffee:
 
 Objects repeatedly used together often make sense near one another.
 
+Counter storage can be part of that routine too. Our guide to [Yamazaki Home Tower Bread Box designs and their counter-space trade-offs](/articles/yamazaki-home-bread-box-counter-space-design/) compares standard, vertical, and cutting-board-lid approaches.
+
 This does not require buying anything. It requires noticing movement.
 
 For a few days, pay attention to the unnecessary trips you make while preparing food. If you repeatedly cross the kitchen to retrieve the same object, ask whether its storage location reflects where you use it.
