@@ -6,10 +6,11 @@
   "packageManager": "pnpm@11.19.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && node scripts/check-site-output.mjs",
+    "build": "astro check && node scripts/check-affiliate-integrity.mjs && astro build && node scripts/check-site-output.mjs",
     "preview": "astro preview",
     "check": "astro check",
-    "check:site": "node scripts/check-site-output.mjs"
+    "check:site": "node scripts/check-site-output.mjs",
+    "check:affiliate": "node scripts/check-affiliate-integrity.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
